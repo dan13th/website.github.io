@@ -1,0 +1,134 @@
+body 
+{ 
+  background: url(background2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	//comment
+}
+
+.logotext
+{
+	color:black;
+}
+
+.newsheadings
+{
+	text-decoration: underline;
+	color:white;
+}
+
+.sitetext
+{
+	table-layout:fixed;
+	word-wrap: break-word;
+	color:gray;
+}
+
+.sitelinks
+{
+	text-decoration: underline;
+}
+
+.footertext
+{
+	color:white;
+}
+
+#container
+{
+	height:1056px;
+	width:1000px;
+	position:relative;
+	margin:auto;
+}
+#logo
+{
+	height:290;
+	width:960px;
+	opacity: 0.8; //To put urdu text later
+	position:absolute;
+	margin-top:20px;
+	border:1px solid;
+	padding-top: 1px;
+}
+
+#main
+{
+	height:1056px;
+	width:960px;
+	background-image: url("subbackground.png");
+	margin-top: 1px;
+	position:absolute;
+	padding-top: 1px;
+}
+
+
+#nag
+{
+	height:40px;
+	width:960px;
+	position:absolute;
+	padding-right:30px;
+	margin-left:0px;
+	margin-top:40px;
+
+	z-index:10;
+}
+
+#news
+{
+	color: white;
+	height:100;
+	width:400px;
+	position:absolute;
+	margin-top:80px;
+	padding-left:280px;
+}
+
+#news2
+{
+	color: white;
+	height:100;
+	width:800px;
+	position:absolute;
+	margin-top:20px;
+	padding-left:280px;
+}
+
+#elaborations
+{
+	color: white;
+	height:400;
+	width:800px;
+	position:absolute;
+	margin-top:180px;
+}
+
+#footer
+{
+	height:100;
+	width:960px;
+	position:absolute;
+	margin-top:1056px;
+}
+
+a:link
+{
+	color:White;
+}
+
+a:visited
+{
+	color: 	#B0B0B0;
+}
+
+a:hover
+{
+	color:black;
+}
+a:active
+{
+	color: 	#404040;
+}
